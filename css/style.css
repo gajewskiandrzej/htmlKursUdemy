@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('../images/connectwork.png');
+    background-attachment: fixed;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+#mainContainer{
+    align-content: center;
+    width: 1004px;
+    margin: 0 auto;
+}
+
+.cls{
+    clear: both;
+}
+
+header{
+    position: relative;
+    float: left;
+    margin: 20px 0px 0px;
+    width: 940px;
+    height: 200px;
+    background-image: url('../images/header.jpg');
+    border: inset;
+}
+
+/*MENU*/
+.menu{
+    background-color:rgb(66, 66, 136);
+    border: rgb(18, 18, 39);
+    margin-top: 10px;
+    width: 946px;
+    height: 42px;
+    float: left;
+}
+
+.menu li{
+    list-style-type: none;
+    float: left;
+    padding: 5px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: azure;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.space{
+    display: inline-block;
+    color: azure;
+}
